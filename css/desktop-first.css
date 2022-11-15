@@ -10,17 +10,7 @@
 
 @media screen and (max-width: 576px) {
     .row {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .steps h2{
-        margin-bottom: 1rem;
-    }
-
-    .steps .card > img {
-        margin-bottom: 0;
+        display: block;
     }
 
     .lessons{
@@ -37,8 +27,24 @@
         padding: 3rem 0;
     }
 
+    .lessons .col {
+        width: 100%;
+    }
 
+    .steps .col {
+        width: 100%;
+    }
 
+    .why-us .col {
+        width: 90%;
+    }
 
+    .card {
+        margin-bottom: 3rem;
+    }
+
+    .why-us img{
+        margin-bottom: 2rem;
+    }
 
 }
