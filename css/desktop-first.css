@@ -1,3 +1,11 @@
+/* Sotto i 1160px */
+
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 750px;
+    }
+}
+
 /* Sotto i 768px - Tablet */
 
 @media screen and (max-width: 768px) {
