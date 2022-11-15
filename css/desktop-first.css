@@ -1,5 +1,44 @@
+/* Sotto i 768px - Tablet */
+
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
+}
+
+/* Sotto i 576px - Mobile */
+
+@media screen and (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .steps h2{
+        margin-bottom: 1rem;
+    }
+
+    .steps .card > img {
+        margin-bottom: 0;
+    }
+
+    .lessons{
+        padding-bottom: 3rem;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
+
+
+
+
+
 }
