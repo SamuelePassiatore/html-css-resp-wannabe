@@ -8,43 +8,31 @@
 
 /* Sotto i 768px - Tablet */
 
-@media screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
+.container{
+    max-width: 1140px;
+    width: 100%;
 }
 
 /* Sotto i 576px - Mobile */
 
 @media screen and (max-width: 576px) {
     .row {
-        display: block;
+        flex-direction: column;
     }
 
-    .lessons{
-        padding-bottom: 3rem;
+    .row .col {
+        width: 100%;
     }
 
     .steps {
         margin: 0;
+        padding-bottom: 0;
     }
 
     .why-us {
         background-color: #222222;
         margin-bottom: 0;
         padding: 3rem 0;
-    }
-
-    .lessons .col {
-        width: 100%;
-    }
-
-    .steps .col {
-        width: 100%;
-    }
-
-    .why-us .col {
-        width: 90%;
     }
 
     .card {
@@ -54,5 +42,4 @@
     .why-us img{
         margin-bottom: 2rem;
     }
-
 }
